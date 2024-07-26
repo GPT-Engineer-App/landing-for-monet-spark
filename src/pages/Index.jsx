@@ -11,9 +11,9 @@ const Index = () => {
       <main className="max-w-6xl mx-auto px-4 py-16">
         <section className="mb-20">
           <div className="flex flex-col lg:flex-row items-center gap-12">
-            <img src="/placeholder.svg" alt="Claude Monet" className="w-full lg:w-1/2 h-[400px] object-cover rounded-lg shadow-lg" />
+            <img src="/placeholder.svg" alt="Claude Monet" className="mx-auto object-cover w-full lg:w-1/2 h-[400px] rounded-lg shadow-lg" />
             <div>
-              <h2 className="text-3xl font-semibold mb-6">Biography</h2>
+              <h2 className="text-3xl font-semibold mb-6 text-secondary">Biography</h2>
               <p className="text-lg leading-relaxed">Claude Monet (1840-1926) was a French painter and founder of impressionist painting. He is known for his vibrant outdoor scenes and his study of the play of light and its reflection, especially on water. Monet's long career and unwavering dedication to his craft led to a vast body of work that continues to captivate audiences worldwide.</p>
             </div>
           </div>
@@ -21,9 +21,9 @@ const Index = () => {
 
         <section className="mb-20">
           <div className="flex flex-col lg:flex-row-reverse items-center gap-12">
-            <img src="/placeholder.svg" alt="Water Lilies by Monet" className="w-full lg:w-1/2 h-[400px] object-cover rounded-lg shadow-lg" />
+            <img src="/placeholder.svg" alt="Water Lilies by Monet" className="mx-auto object-cover w-full lg:w-1/2 h-[400px] rounded-lg shadow-lg" />
             <div>
-              <h2 className="text-3xl font-semibold mb-6">Famous Works</h2>
+              <h2 className="text-3xl font-semibold mb-6 text-accent">Famous Works</h2>
               <ul className="text-lg leading-relaxed space-y-2">
                 <li>Water Lilies series</li>
                 <li>Impression, Sunrise</li>
@@ -37,16 +37,16 @@ const Index = () => {
 
         <section className="mb-20">
           <div className="flex flex-col lg:flex-row items-center gap-12">
-            <img src="/placeholder.svg" alt="Monet painting outdoors" className="w-full lg:w-1/2 h-[400px] object-cover rounded-lg shadow-lg" />
+            <img src="/placeholder.svg" alt="Monet painting outdoors" className="mx-auto object-cover w-full lg:w-1/2 h-[400px] rounded-lg shadow-lg" />
             <div>
-              <h2 className="text-3xl font-semibold mb-6">Impact on Art</h2>
+              <h2 className="text-3xl font-semibold mb-6 text-secondary">Impact on Art</h2>
               <p className="text-lg leading-relaxed">Monet's approach to light and color revolutionized painting. His work was crucial to the development of Impressionism, which broke away from traditional artistic styles and paved the way for modern art movements. Monet's emphasis on capturing the fleeting effects of light and atmosphere in nature inspired generations of artists and continues to influence contemporary painting.</p>
             </div>
           </div>
         </section>
       </main>
 
-      <footer className="bg-secondary text-secondary-foreground py-8">
+      <footer className="bg-muted text-muted-foreground py-8">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <p>&copy; 2023 Monet Gallery. All rights reserved.</p>
         </div>
