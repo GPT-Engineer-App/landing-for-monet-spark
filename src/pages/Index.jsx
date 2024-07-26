@@ -1,3 +1,5 @@
+import TestimonialsCarousel from '@/components/TestimonialsCarousel';
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -43,6 +45,11 @@ const Index = () => {
               <p className="text-lg leading-relaxed">Monet's approach to light and color revolutionized painting. His work was crucial to the development of Impressionism, which broke away from traditional artistic styles and paved the way for modern art movements. Monet's emphasis on capturing the fleeting effects of light and atmosphere in nature inspired generations of artists and continues to influence contemporary painting.</p>
             </div>
           </div>
+        </section>
+
+        <section className="mb-20">
+          <h2 className="text-3xl font-semibold mb-6 text-center text-accent">Visitor Testimonials</h2>
+          <TestimonialsCarousel />
         </section>
       </main>
 
