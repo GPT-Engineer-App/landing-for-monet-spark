@@ -51,10 +51,10 @@ const TestimonialsCarousel = () => {
         <div className="flex">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="flex-[0_0_100%] min-w-0">
-              <div className="bg-card text-card-foreground p-6 rounded-lg shadow-lg m-4">
-                <img src={testimonial.image} alt={testimonial.author} className="mx-auto object-cover w-24 h-24 rounded-full mb-4" />
-                <blockquote className="text-lg italic mb-4">"{testimonial.quote}"</blockquote>
-                <p className="font-semibold text-right">- {testimonial.author}</p>
+              <div className="bg-card text-card-foreground p-8 rounded-lg shadow-lg m-4 brush-stroke">
+                <img src={testimonial.image} alt={testimonial.author} className="mx-auto object-cover w-32 h-32 rounded-full mb-6 border-4 border-secondary" />
+                <blockquote className="text-xl italic mb-6 text-center">"{testimonial.quote}"</blockquote>
+                <p className="font-semibold text-right text-lg">- {testimonial.author}</p>
               </div>
             </div>
           ))}
